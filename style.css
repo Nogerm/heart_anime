@@ -1,3 +1,7 @@
+.bg {
+  background-color: lightsteelblue;
+}
+
 .container {
 	width: 200px;
 	height: 200px;
@@ -13,86 +17,77 @@
 	margin-left: 72px;
 }
 
-.arc1 {
+.cone {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 50px 300px 50px;
+  border-color: transparent transparent rgba(255, 220, 0.0, 0.5) transparent;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: -200px;
+}
+
+.arc {
   border: 2px solid #888;
   border-radius: 50%;
+  background-color:  rgba(255,255,255,0.3);
+  border-top-color: transparent;
+  position: absolute;
+}
+
+.arc1 {
   height: 200px;
   width: 200px;
-  border-top-color: transparent;
   animation: rotate_cw 10s infinite linear;
-  position: absolute;
   margin-top: 0px;
   margin-left: 0px;
 }
 
 .arc2 {
-  border: 2px solid #888;
-  border-radius: 50%;
   height: 180px;
   width: 180px;
-  border-top-color: transparent;
   animation: rotate_ccw 8s infinite linear;
-  position: absolute;
   margin-top: 10px;
   margin-left: 10px;
 }
 
 .arc3 {
-  border: 2px solid #888;
-  border-radius: 50%;
   height: 160px;
   width: 160px;
-  border-top-color: transparent;
   animation: rotate_ccw 11s infinite linear;
-  position: absolute;
   margin-top: 20px;
   margin-left: 20px;
 }
 
 .arc4 {
-  border: 2px solid #888;
-  border-radius: 50%;
   height: 140px;
   width: 140px;
-  border-top-color: transparent;
   animation: rotate_cw 7s infinite linear;
-  position: absolute;
   margin-top: 30px;
   margin-left: 30px;
 }
 
 .arc5 {
-  border: 2px solid #888;
-  border-radius: 50%;
   height: 120px;
   width: 120px;
-  border-top-color: transparent;
   animation: rotate_cw 6s infinite linear;
-  position: absolute;
   margin-top: 40px;
   margin-left: 40px;
 }
 
 .arc6 {
-  border: 2px solid #888;
-  border-radius: 50%;
   height: 100px;
   width: 100px;
-  border-top-color: transparent;
   animation: rotate_cw 4s infinite linear;
-  position: absolute;
   margin-top: 50px;
   margin-left: 50px;
 }
 
 .arc7 {
-  border: 2px solid #888;
-  border-radius: 50%;
   height: 80px;
   width: 80px;
-  border-top-color: transparent;
   animation: rotate_cw 15s infinite linear;
-  position: absolute;
   margin-top: 60px;
   margin-left: 60px;
 }
