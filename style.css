@@ -1,0 +1,108 @@
+.container {
+	width: 200px;
+	height: 200px;
+	padding-left: 40vw;
+	padding-top: 40vh;
+}
+
+.image {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 75px;
+	margin-left: 72px;
+}
+
+.arc1 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border-top-color: transparent;
+  animation: rotate_cw 10s infinite linear;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.arc2 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border-top-color: transparent;
+  animation: rotate_ccw 8s infinite linear;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.arc3 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  border-top-color: transparent;
+  animation: rotate_ccw 11s infinite linear;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.arc4 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  border-top-color: transparent;
+  animation: rotate_cw 7s infinite linear;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.arc5 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  border-top-color: transparent;
+  animation: rotate_cw 6s infinite linear;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.arc6 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  border-top-color: transparent;
+  animation: rotate_cw 4s infinite linear;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.arc7 {
+  border: 2px solid #888;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  border-top-color: transparent;
+  animation: rotate_cw 15s infinite linear;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+@keyframes rotate_cw {
+  0%    { transform: rotate(0deg);  }
+  100%  { transform: rotate(360deg);  }
+}
+
+@keyframes rotate_ccw {
+  0%    { transform: rotate(360deg);  }
+  100%  { transform: rotate(0deg);  }
+}
